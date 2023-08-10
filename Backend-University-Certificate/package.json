@@ -1,0 +1,38 @@
+{
+  "name": "backend-certificate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.0",
+    "@truffle/hdwallet-provider": "^2.0.11",
+    "base64-stream": "^1.0.0",
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.1.5",
+    "express": "^4.18.1",
+    "fetch-blob": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "get-stream": "^6.0.1",
+    "ipfs-api": "^26.1.2",
+    "ipfs-core": "^0.18.1",
+    "ipfs-http-client": "^60.0.1",
+    "it-all": "^3.0.2",
+    "js-base64": "^3.7.5",
+    "jsbn": "^1.1.0",
+    "mongoose": "^5.13.20",
+    "node-fetch": "^2.6.7",
+    "node-localstorage": "^2.2.1",
+    "nodemon": "^3.0.1",
+    "pdfkit": "^0.13.0",
+    "pdfmake": "^0.2.5",
+    "qrcode": "^1.5.0",
+    "truffle": "^5.5.21",
+    "truffle-init": "^1.0.7"
+  }
+}
